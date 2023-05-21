@@ -2,7 +2,7 @@ export interface IPostItem {
   id: string;
   title: string;
   description: string;
-  type: IPostState
+  type: IPostState;
 }
 
 export enum IPostState {
